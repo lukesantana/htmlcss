@@ -1,0 +1,11 @@
+usuário git :lukesantana
+Senha:escanorking5036
+Então, execute o comando git remote, conforme o que segue:
+$ git remote add origin https://github.com/fulanodasilva/
+citacoes.git
+
+Com o repositório remoto configurado, podemos enviar nossas mudan-
+ças para o GitHub e, por consequência, para todo o mundo.
+
+Para isso, basta executar o comando git push, da seguinte forma:
+$ git push origin master
