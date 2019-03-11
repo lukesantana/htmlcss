@@ -1,19 +1,74 @@
 .container {
- margin:0  auto;
+ margin:0  auto;   /*A propriedade width xa a largura para 960px, adequando o conteúdo a telas
+de pelo menos 1024px de largura, como tablets e netbooks.*/
  width: 960 px;
 
 
+}
+
+body{
+ font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+line-height: 1.6;
+
+
+/*Aqui, estamos trocando a família de fontes utilizadas para uma lista de 4 fon-
+tes diferentes que são utilizadas da seguinte maneira: caso a primeira fonte listada
+
+não esteja disponível no sistema operacional do usuário, o navegador tentará utili-
+zar a próxima e assim sucessivamente. A Lucida Grande será a fonte utilizada pelo
+
+Mac OS X ao exibir a nossa página, enquanto a Lucida Sans Unicode será vista por
+usuários do Windows, já que este sistema operacional não possui a primeira fonte
+da nossa lista.
+En-
+quanto o line-height de 1.6, sem nenhuma medida especíca - como px ou em -
+
+indica para a altura das linhas carem com 160% da altura da fonte. Caso ela esteja
+em 16px, o line-height será 25px. Caso a altura da fonte mude, a altura da linha de
+
+11
+
+2.3. Bordas e margens Casa do Código
+texto irá acompanhar essa mudança, respeitando a regra de sempre ser 1.6 da altura
+da fonte.*/
+
+
+}
+
+.place {
+
+
+border-color: #CCC #999 #999 #CCC;
+border: 1px solid #CCC;
+margin-bottom: 20px;
+padding: 10px;
+
 
 
 
 }
 
+/*Agora, cada elemento que contenha o class='place', ou lugar, terá uma borda
+sólida - uma linha - de 1px. A princípio todas as bordas são do mesmo tom de
 
-.{
- color:red;
+cinza, mas vamos mudar as bordas da direita e de baixo para outro tom de cor, repe-
+tindo o mesmo cinza para as outras bordas, através do border-color. Além disso, o
+
+margin-bottom, coloca 20px abaixo de cada um dos elementos, adicionando espaço
+entre eles e ao término da lista. Enquanto a propriedade margin-bottom adiciona
+o espaçamento do lado de fora dos elementos, a propriedade padding adiciona o
+espaçamento dentro dele, que no caso é de 10px em todos os lados.
+As três propriedades - padding, margin e border - funcionam de maneira similar,
+sendo possível denir um valor especíco para cada um dos 4 lados do elemento.
+Caso você queria denir o valor para apenas um deles, é possível utilizar a variação
+-top/right/bottom/left, como o margin-bottom. Enquanto o uso da propriedade
+sem o suxo vai aplicar o mesmo valor para todos os lados do elemento, ou você pode
+informar uma lista de valores diferentes e eles serão aplicados em sentido horário -
+o primeiro será para o topo (top), o segundo para o lado direito e assim por diante.
+
+*/
 
 
-}
 
 
-teste
