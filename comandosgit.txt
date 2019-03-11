@@ -9,3 +9,13 @@ Com o repositório remoto configurado, podemos enviar nossas mudan-
 
 Para isso, basta executar o comando git push, da seguinte forma:
 $ git push origin master
+
+git ignore
+Para resolver isso, o Git tem um mecanismo que permite ignorarmos ar-
+quivos. Basta criarmos um arquivo chamado .gitignore no diretório prin-
+cipal do nosso projeto, com os nomes dos arquivos que queremos ignorar.
+
+No nosso caso, devemos criar um arquivo chamado .gitignore no
+diretório moveis, com o seguinte conteúdo:
+todo.txt
+tmp/
