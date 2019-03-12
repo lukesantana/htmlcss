@@ -7,6 +7,7 @@ de pelo menos 1024px de largura, como tablets e netbooks.*/
 }
 
 body{
+background: #FFF1D6 /*url(images/image.png)*/;
  font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana,
 sans-serif;
 line-height: 1.6;
@@ -38,11 +39,19 @@ da fonte.*/
 
 .place {
 
-
+background-color:#FFF;
 border-color: #CCC #999 #999 #CCC;
 border: 1px solid #CCC;
-margin-bottom: 20px;
-padding: 10px;
+margin-bottom: 20px;  /* adiciona espaçamento entre as bordas */
+padding: 10px; /*padding adiciona o
+espaçamento dentro dele*/
+}
+
+
+.place h2{
+
+border-bottom:1px dashed #7E9F19; /* define o espaçamento de dentro da borda, tirando os espaçamentos padõres de h2, adiciona também borda tracejada,opção dashed*/
+margin:0;
 
 
 
@@ -68,6 +77,36 @@ informar uma lista de valores diferentes e eles serão aplicados em sentido horár
 o primeiro será para o topo (top), o segundo para o lado direito e assim por diante.
 
 */
+
+
+.place a{
+color:#2C88A7;
+font-weight:bold;
+
+}
+
+h1 a:hover { /*Agora, ao se posicionar o cursor do mouse no título da página, o verde que antes
+estava no texto irá preencher o fundo do elemento, e o branco irá tomar o lugar do
+verde do texto. Quando o cursor sair de cima do título da página, o link voltará ao
+seu estilo tradicional.
+
+Além do hover, existem pseudo seletores que podem ser utilizados para adici-
+onar um estilo especíco a outros estados de links ou outros elementos, e os mais
+
+tradicionais são:
+
+• :focus, para elementos que estejam focados pelo teclado, como links ou cam-
+pos de um formulário;
+
+• :visited, para endereços já visitados pelo usuário;
+• :active, para o instante onde o elemento está sendo pressionado pelo mouse.
+color: #7E9F19;*/
+text-decoration: none;  /*elimina o sublinhado*/
+
+
+}
+
+/*página 18*/
 
 
 
