@@ -1,5 +1,48 @@
 usuário git :lukesantana
 Senha:escanorking5036
+git config(metodo) --global user.name "lucas santana" (para configurar o usuáio)
+git config(metodo) --global user.email "lucas santana" (para configurar o email)
+$ git config --global core.editor notepad++ (configurar o editor)
+git init =  transforma o diretório atual em um repositório git , fazendo assim o git enxergar as mudanças feitas no projeto
+git status= podemos ver a situaçmkdir ão dos arquivos no repositório git
+
+status de arquivos do git
+
+untracked (Não marcado)
+
+arquivo foi adicionado no repositório, mas ainda não foi visto pelo git
+
+unmodified 
+
+existe no git, mas não foi modificado
+
+modified 
+ 
+Quando o arquivo foi modificado
+
+Staged
+
+depois que ele foi modificado, essa é a área que foi criado uma versão
+
+Commit é  quando a versão  já foi criada, depois disso os arquivos voltam para unmodified.
+
+Commit pega os arquivos do repositório e cria uma imagem dele 
+
+git commit -m (parâmetro que diz que irá fazer um comentário)
+
+git log= usado para ver os logs de alteração, quem alterou, que horas e etc
+
+git log --author "nome do autor"= filtra o commit pelo autor
+
+git shortlog -sn =  para ver a quantidade de commits por usuário
+
+git log --graph = mostra de forma gráfica o que esá acontecendo com seus branches 
+
+git diff = mostra a modificação que foi feita, usar antes de fazer o commit
+
+$ git diff --name-only vê o nome do arquivo que foi editado 
+
+
 Então, execute o comando git remote, conforme o que segue:
 $ git remote add origin https://github.com/fulanodasilva/
 citacoes.git
