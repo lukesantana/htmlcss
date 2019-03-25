@@ -105,8 +105,20 @@ text-decoration: none;  /*elimina o sublinhado*/
 
 
 }
+.place img{
+	border: 1px solid #7E9F19;
+    float: left; /*posiciona a imagem em um canto*/
+    margin: 10px 10px 0 0;
+    padding: 2px;
+	
+	
+}
 
-/*página 18*/
+.clear { /*elemento vazio extra que é adicionado ao HTML, sem nenhum valor semân-
+tico, que existe apenas para resolver um problema do estilo da página.*/
+clear: both;
+}
+/*página 22*/
 
 
 
